@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet');
+
+html,
+body {
+  margin: 0 auto;
+  padding: 0 !important;
+  box-sizing: border-box;
+  font-size: 1rem;
+  max-width: 1920px;
+  height: 100%;
+}
+
+h1,
+h2,
+p,
+.button {
+    font-family: 'Roboto', sans-serif;   
+}
+
+.h1, h1 {
+    font-size: 3rem;
+}
+
+.h2, h2 {
+    font-size: 2rem;
+}
+
+.section {
+    width: 1920px;
+    padding: 0;
+}
+.container {
+    width: 1113px;
+    padding: 0;
+}
+
+.section_first {
+    background: #EEEFF1;
+}  
+
+.logo_menu,
+.write_me {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 57px;
+}
+
+.write_me {
+    margin-bottom: 146px;
+}
+
+.navbar {
+    padding: 0;
+    margin-top: 79px;
+}
+
+.navbar li {
+    display: inline-flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: none;
+    border: 0;
+    outline: none;
+    margin-right: 36px;   
+}
+
+.nav-link  {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 26px;
+    color: #000000;
+}
+
+.dropdown-menu {
+    display: none;
+    border: none;
+    outline: none;
+    margin-left: -1em;
+    list-style-type: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+  
+#dropdownMenuButton {
+    position: absolute;
+    top: 1em;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+}
+
+.row_2 {
+    margin-top: 162px;
+}
+
+p,
+h1 {
+    margin-bottom: 60px;
+}
+
+.p_present {
+    color: #727272;
+}
+
+.button_write {
+    width: 225px;
+    height: 65px;
+    background: #34547A;
+    color: #ffffff;
+}
+
+.about_me {
+    margin-top: 112px;
+}
+
+h2 {
+    margin-bottom: 50px;
+}
+
+.p_text {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.section_third {
+    background:  #34547A;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.img_gallery {
+    width: 50px;
+    height: 50px;
+}
+
+.h3_project {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 21px;
+
+}
+
+.p_project {
+    color: #ffffff;
+}
+
+.skills {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.skill_name {
+    margin-bottom: 20px; 
+    margin-top: 30px;
+    color: #727272;
+}
+
+.skill_line {
+    width: 445px;
+    height: 4px;
+    border-left: 349.36px solid #34547A;
+    background-color: #c4c4c4;
+}
+
+.face {
+    margin-top: 102px;
+    margin-bottom: 101px;
+}
+
+.img_works { 
+    width: 480px;
+    height: 480px;
+}
+
+.img_works_view {
+    width: 480px;
+    height: 480px;
+}
+
+.works {
+    display: inline;
+    text-align: center;
+    width: 1960px;
+    height: 960px;
+    padding: 0;
+}
+
+.micro {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.img_micro {
+    width: 255px;
+    height: 120px;
+    padding: 0;
+    padding-right: 30px;
+
+}
+
+.h2_text,
+.h2_form,
+.p_form {
+    text-align: center;
+}
+
+.h2_form {
+    margin-top: 200px;
+}
+
+.button_send {
+    margin-bottom: 100px;
+    margin-top: 50px;
+    width: 190px;
+    height: 55px;
+    background: #34547A;
+    color: #ffffff;
+}
+.section_eight {
+    background: #EEEFF1;
+}  
+
+.footer {
+    display: inline-flex;
+    flex-direction: row;
+    height: 151px;
+    margin-top: 50px;
+    padding: 0%;
+    
+}
+
+.section_eleven {
+    background:  #34547A;
+}
+
+.img_vk {
+    width: 175px;
+    height: 40px;
+    }
+.ft_name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 0;
+}
+.ft_copy {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+.p_text,
+.p_form {
+    color: #727272;
+}
+
+.section_fifth {
+    background: #EEEFF1;
+}
+
+.work {
+    margin-top: 100px;
+}
+
+.video {
+    margin-bottom: 100px;
+}
+
+#inputMessage {
+    height: 175px;
+}
+
+
+@media screen and (max-width: 575px) {
+    .section {
+        max-width: 375px;
+        max-height: 667px;  
+      }
+      .container {
+        max-width: 375px;
+        max-height: 667px;  
+      }
+      .row {
+        max-width: 375px;
+        max-height: 667px;   
+      }
+      .works {
+        display: flex;
+        max-width: 375px;
+        max-height: 200px;  
+        justify-content: center;
+      
+      }
+      .img_works {
+        max-width: 93.75px;
+        max-height: 93.75px;    
+      }
+      .gallery {
+          display: inline-flex;
+          justify-content: center;
+      }
+      
+      
+      .skills {
+        max-width: 375px;
+        max-height: 150px;  
+      }
+      .face {
+       display: none; 
+      }
+      .img {
+          display: none;
+      }
+      .skill_line {
+        max-width: 375px; 
+        border-left: 292px solid #34547A;;
+      }
+      .write_me {
+        display: flex;
+        justify-content: center;
+      }
+     
+      .section_first {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+      }
+     .section_seventh {
+        margin-top: 250px;
+    }
+   
+    }
+      @media screen and (max-width: 760px) {
+        .section {
+            max-width: 375px;
+            max-height: 667px;  
+          }
+          .container {
+            max-width: 375px;
+            max-height: 667px;  
+          }
+          .row {
+            max-width: 375px;
+            max-height: 667px;   
+          }
+          .micro {
+            display: flex;
+            max-width: 562px;
+            max-height: 1000px; 
+            justify-content: center;
+          }
+          .micro_img {
+            display: inline-flex;
+            justify-content: center;
+            max-width: 93.75px;
+            max-height: 93.75px;  
+          }
+          .works { 
+            display: flex;
+            max-width: 375px;
+            max-height: 200px;  
+            justify-content: center;
+          }
+          .img_works {
+            max-width: 93.75px;
+            max-height: 93.75px;    
+          }
+        
+          .face {
+            display: none;
+            max-width: 100px;
+            max-height: 85px; 
+          }
+          .img {
+            display: none;
+        }
+          .skills {
+            display: inline-flex;
+            flex-direction: row;
+            align-items: center;
+            max-width: 375px;
+            max-height: 150px;  
+          }
+         
+          .skill_line {
+            max-width: 375px; 
+            border-left: 292px solid #34547A;;
+          }
+          .write_me {
+              text-align: right
+          }
+         .section_seventh {
+            margin-top: 250px;
+        }
+       
+        }
